@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sales-alert {
+    background-color: #eec802;
+    color: #544600;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.navalert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.callout-container {
+    height: 100vh;
+    background: url('../images/whiskey-background.jpg') bottom right / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand, .nav-item .nav-link, .btn.btn--cta {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 2rem 0;
+}
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+}
+.btn--red:hover {
+    background-color: #ea4929;
+    color: white;
+}
+
+.block-div {
+    width: 75px;
+    height: 5px;
+    background-color: black;
+}
+
+.block-div--orange {
+    background-color: #f05f40;
+}
+
+.block-div--short {
+    width: 40px;
+}
+
+.block-div--white {
+    background-color: white;
+}
+
+.feature-container-wrapper {
+    background-color: #f05f40;
+}
+
+i.fas {
+    font-size: 2.5rem;
+}
+
+section.features a.btn {
+    color: #f05f40;
+    font-weight: bold;
+}
